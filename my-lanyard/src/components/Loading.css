@@ -1,0 +1,94 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.letter-d {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #691ac4;
+  text-shadow: 0 0 20px rgba(191, 70, 247, 0.5);
+  animation: letterPulse 1.5s ease-in-out infinite;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.loading-text {
+  color: #9CA3AF;
+  font-size: 1.2rem;
+  font-weight: 500;
+  animation: textFade 2s ease-in-out infinite;
+  letter-spacing: 0.1em;
+}
+
+@keyframes letterPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(59, 130, 246, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+}
+
+@keyframes textFade {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+/* Animación de entrada */
+.loading-container {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .letter-d {
+    font-size: 6rem;
+  }
+  
+  .loading-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .letter-d {
+    font-size: 4rem;
+  }
+  
+  .loading-text {
+    font-size: 0.9rem;
+  }
+}
+
+
