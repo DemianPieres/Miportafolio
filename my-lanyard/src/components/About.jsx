@@ -53,12 +53,12 @@ const About = () => {
               ¿Quién soy?
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed animate-fade-in">
-			Soy desarrollador full stack con una fuerte orientación a la creación de soluciones prácticas y funcionales. No me limito a una única tecnología o área específica, sino que disfruto explorar distintos entornos y herramientas para dar vida a ideas y proyectos que aporten valor real.
+            Soy desarrollador full stack con una fuerte orientación a la creación de soluciones prácticas y funcionales. No me limito a una única tecnología o área específica, sino que disfruto explorar distintos entornos y herramientas para dar vida a ideas y proyectos que aporten valor real.
             </p>
             <p className="text-gray-300 mb-8 leading-relaxed animate-fade-in">
-			Tengo 21 años y resido en Córdoba Capital. Soy egresado de la carrera de Desarrollo de Software en el Instituto Privado Santo Domingo. Me apasionan los deportes, especialmente el tenis y el fútbol. También practico trekking, ciclismo y maratones. Llevo un estilo de vida saludable, con buena alimentación y mucha actividad física, algo que me inculcó mi familia desde chico, ya que todos compartimos el amor por el deporte.
+            Tengo 21 años y resido en Córdoba Capital. Soy egresado de la carrera de Desarrollo de Software en el Instituto Privado Santo Domingo. Me apasionan los deportes, especialmente el tenis y el fútbol. También practico trekking, ciclismo y maratones. Llevo un estilo de vida saludable, con buena alimentación y mucha actividad física, algo que me inculcó mi familia desde chico, ya que todos compartimos el amor por el deporte.
 
-Estoy en constante aprendizaje y me entusiasma profundamente el mundo de la tecnología, siempre buscando crecer y adquirir nuevos conocimientos que me permitan seguir desarrollándome tanto personal como profesionalmente.
+            Estoy en constante aprendizaje y me entusiasma profundamente el mundo de la tecnología, siempre buscando crecer y adquirir nuevos conocimientos que me permitan seguir desarrollándome tanto personal como profesionalmente.
             </p>
             
             <div className="flex flex-wrap gap-4 animate-fade-in">

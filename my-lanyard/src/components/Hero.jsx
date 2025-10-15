@@ -69,7 +69,7 @@ const Hero = () => {
             Desarrollador Fullstack
           </p>
           <p className="text-gray-300/90 text-lg md:text-xl mb-10 leading-relaxed animate-fade-in" style={{ transitionDelay: '0.4s' }}>
-            +Experiencia en Elaboracion de Proyectos. Graduado en <span className="text-purple-700">Desarrollo de Software</span> Especializado en Crear Soluciones Digitales.
+            +Experiencia en Elaboración de Proyectos. Graduado en <span className="text-purple-700">Desarrollo de Software</span> Especializado en Crear Soluciones Digitales.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ transitionDelay: '0.6s' }}>
             <button 

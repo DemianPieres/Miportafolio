@@ -7,6 +7,8 @@ yarn-error.log*
 # Production builds
 dist/
 build/
+my-lanyard/dist/
+my-lanyard/build/
 
 # Environment variables
 .env
